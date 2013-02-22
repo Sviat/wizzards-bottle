@@ -1,0 +1,32 @@
+/
+	server/
+		!server side PHP files
+		engine/
+			!for emulating BK2 offline features
+			map.php
+			
+		db.php
+			!low level functions to mysql DBMS
+		db_requests.php
+			!high level DB request
+		statistic.php
+			!for achievments and player activity
+		game.php
+		api.php
+		chat.php
+		
+	client/
+		!JS scripts, interaction with user
+		chat.js
+		ui.js
+		
+	static/
+		!images and other stuff
+		
+	includes/
+		!any 3d party JS frameworks, i.e. jQuery 
+		
+	style.css
+	global.php
+	transformer.php
+		!Handler for AJAX requests. Redirect them to API/GAME/CHAT
